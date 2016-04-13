@@ -81,3 +81,17 @@ function factorial(number){
         return(number * factorial(number - 1));
     }
 }
+
+// This function takes a phrase as a string, and returns the longest word in that phrase.
+
+function longestWord (string){
+   var strArr = string.split(' ');
+   var longest = '';
+   for (var i = 0; i < strArr.length; i++){
+    if (strArr[i].length > longest.length) {
+        longest = strArr[i];
+    }   
+   }
+   return longest;
+}
+
