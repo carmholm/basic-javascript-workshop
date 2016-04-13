@@ -64,3 +64,11 @@ function exerciseSix (num1, num2, string){
 function stringTimesNumber (string, number){
     return(string.repeat(number));
 }
+
+//This function takes a string, and returns the reverse of the string.
+
+function reverse(string){
+    return(string.split("").reverse().join(""));
+}
+
+console.log(reverse("Carmen Holmes"));
