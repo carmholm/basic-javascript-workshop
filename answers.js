@@ -119,3 +119,12 @@ function largestNumber(array){
     return largest;
 }
 
+// This function takes an array, and returns a filtered array.
+
+function truthyValues (array){
+    return array.filter(function(values){
+        if(values > 1){
+            return  true;
+        }
+    })
+}
