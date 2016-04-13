@@ -128,3 +128,14 @@ function truthyValues (array){
         }
     })
 }
+
+// This function takes an array of numbers and returns the sum of all the numbers in the array.
+
+function arrSum (array){
+    var total = 0;
+    for (var i = 0; i < array.length; i++){
+       total = total + array[i]; 
+    }
+    return total;
+}
+
