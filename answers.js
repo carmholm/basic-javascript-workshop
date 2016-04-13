@@ -139,3 +139,23 @@ function arrSum (array){
     return total;
 }
 
+// This function takes two arrays, and returns an array of all elements that are only in one array.
+
+var specialElements = function(array1,array2) {
+ var newArray = [];
+ for (var i = 0; i < array1.length; i++) {
+   var value = array1[i];
+   if (array2.indexOf(value) === -1) {
+     newArray.push(value);
+   }
+ }
+ for (var i = 0; i < array2.length; i++) {
+   var value = array2[i];
+   if (array1.indexOf(value) === -1) {
+     newArray.push(value);
+   }
+ }
+ return newArray;
+};
+
+console.log(specialElements([1,2,3],[1,2,4,5]));
