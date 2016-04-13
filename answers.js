@@ -58,3 +58,9 @@ function exerciseSix (num1, num2, string){
         return(0);
     }
 }
+
+//This function takes a string and a number, and returns the string repeated that many number of times. Test your function with various inputs.
+
+function stringTimesNumber (string, number){
+    return(string.repeat(number));
+}
