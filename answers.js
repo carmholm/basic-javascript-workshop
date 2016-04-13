@@ -95,3 +95,17 @@ function longestWord (string){
    return longest;
 }
 
+//This function takes a phrase and returns the same phrase with every word capitalized. 
+
+function capitalizeEveryWord (string){
+    var lowerCaseArr = string.toLowerCase().split(' ');
+    var upperCaseArr = [];
+    for(var i = 0; i < lowerCaseArr.length; i++){
+        var guy = lowerCaseArr[i].charAt(0).toUpperCase() + lowerCaseArr[i].substring(1);
+        upperCaseArr.push(guy);
+    }
+    return upperCaseArr.join(' ');
+}
+
+
+
