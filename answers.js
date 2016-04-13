@@ -27,3 +27,9 @@ function sum (num1, num2){
     return(num1 + num2);
 }
 
+//This function takes two numbers and multiplies them together. 
+//When you pass something other than a number to the function, it returns NaN.
+
+function product (num1, num2){
+    return(num1*num2);
+}
