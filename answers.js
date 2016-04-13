@@ -17,5 +17,13 @@ function lastCharacter (string) {
 //This function takes a string and a number, and returns the character at the position represented by the number. 
 
 function characterPosition (string, number){
-    return(string.charAt(number))
+    return(string.charAt(number));
 }
+
+//This function takes two numbers and adds them together. Test your function on a few inputs. 
+//When you pass a string instead of a number, it returns a string. 
+
+function sum (num1, num2){
+    return(num1 + num2);
+}
+
