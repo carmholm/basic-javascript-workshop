@@ -13,3 +13,9 @@ function lastCharacter (string) {
     var lastChar = string.charAt(stringLength - 1); 
     return(lastChar);
 };
+
+//This function takes a string and a number, and returns the character at the position represented by the number. 
+
+function characterPosition (string, number){
+    return(string.charAt(number))
+}
