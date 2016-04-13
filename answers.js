@@ -71,4 +71,13 @@ function reverse(string){
     return(string.split("").reverse().join(""));
 }
 
-console.log(reverse("Carmen Holmes"));
+//This function takes a number and returns the factorial of a number.
+
+function factorial(number){
+    if (number === 0 || number === 1){
+        return(1);
+    }
+    else {
+        return(number * factorial(number - 1));
+    }
+}
